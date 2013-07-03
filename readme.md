@@ -22,7 +22,7 @@ Lastly, note that in order to use the workflow you must first register for an AP
  
 And just in case you "tl:dr" that:
 
-![SetApi Example](screenshots/setapi.png)
+![SetApi Example](screenshots/getapi.png)
  
  
 [DOWNLOAD](http://www.alfredforum.com/topic/2590-wordreference-a-multilingual-translation-dictionary/)
