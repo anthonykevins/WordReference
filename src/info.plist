@@ -17,6 +17,8 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>212E2CB2-62D0-4DF4-8868-5C1328427721</key>
+		<array/>
 		<key>4925C6BB-94E1-4C9E-AB91-1795AC90059E</key>
 		<array>
 			<dict>
@@ -32,11 +34,19 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E918F90D-D17A-4262-8569-9F62601F905E</string>
+				<string>EFE432F7-D4C0-44E3-A0B8-7D70AA4362C7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>212E2CB2-62D0-4DF4-8868-5C1328427721</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in WordReference</string>
 			</dict>
 		</array>
 		<key>933A7A90-589E-40F7-9E89-99F80058A254</key>
@@ -76,46 +86,95 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E918F90D-D17A-4262-8569-9F62601F905E</string>
+				<string>EFE432F7-D4C0-44E3-A0B8-7D70AA4362C7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>212E2CB2-62D0-4DF4-8868-5C1328427721</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in WordReference</string>
 			</dict>
 		</array>
 		<key>DDDA77EE-8F26-4D1E-B3D8-E4342A99F104</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E918F90D-D17A-4262-8569-9F62601F905E</string>
+				<string>EFE432F7-D4C0-44E3-A0B8-7D70AA4362C7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>212E2CB2-62D0-4DF4-8868-5C1328427721</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in WordReference</string>
 			</dict>
 		</array>
 		<key>E695ECE8-3A0A-4991-9EFB-5B839DF49A01</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E918F90D-D17A-4262-8569-9F62601F905E</string>
+				<string>EFE432F7-D4C0-44E3-A0B8-7D70AA4362C7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>212E2CB2-62D0-4DF4-8868-5C1328427721</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in WordReference</string>
+			</dict>
+		</array>
+		<key>EFE432F7-D4C0-44E3-A0B8-7D70AA4362C7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B153C310-F562-4BE1-934E-B42F03492135</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>11FEE081-F8E9-429C-9E0B-C9F8AD940111</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 			</dict>
 		</array>
-		<key>E918F90D-D17A-4262-8569-9F62601F905E</key>
-		<array/>
 		<key>F92FBA51-5625-4C68-9A4B-962F4A999F5E</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E918F90D-D17A-4262-8569-9F62601F905E</string>
+				<string>EFE432F7-D4C0-44E3-A0B8-7D70AA4362C7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>212E2CB2-62D0-4DF4-8868-5C1328427721</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in WordReference</string>
 			</dict>
 		</array>
 		<key>FE059F76-194E-48D6-B47D-E0D56D5BF7A7</key>
@@ -133,11 +192,19 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E918F90D-D17A-4262-8569-9F62601F905E</string>
+				<string>EFE432F7-D4C0-44E3-A0B8-7D70AA4362C7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>212E2CB2-62D0-4DF4-8868-5C1328427721</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in WordReference</string>
 			</dict>
 		</array>
 	</dict>
@@ -212,6 +279,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>B153C310-F562-4BE1-934E-B42F03492135</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -241,17 +323,62 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>http://www.wordreference.com/{query}</string>
-				<key>utf8</key>
-				<true/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>$info = unserialize('{query}');
+echo $info[2];</string>
+				<key>type</key>
+				<integer>1</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>E918F90D-D17A-4262-8569-9F62601F905E</string>
+			<string>EFE432F7-D4C0-44E3-A0B8-7D70AA4362C7</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>{query} copied to clipboard</string>
+				<key>title</key>
+				<string>Translation Copied</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>11FEE081-F8E9-429C-9E0B-C9F8AD940111</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>$info = unserialize('{query}');
+$url = 'http://www.wordreference.com/'.$info[0].'/'.urlencode($info[1]);
+exec('open '.escapeshellarg($url));</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>212E2CB2-62D0-4DF4-8868-5C1328427721</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -578,10 +705,20 @@
 			<key>ypos</key>
 			<real>1000</real>
 		</dict>
+		<key>11FEE081-F8E9-429C-9E0B-C9F8AD940111</key>
+		<dict>
+			<key>ypos</key>
+			<real>300</real>
+		</dict>
 		<key>19CB73C2-1F6F-4128-8976-391CA1BDF176</key>
 		<dict>
 			<key>ypos</key>
 			<real>780</real>
+		</dict>
+		<key>212E2CB2-62D0-4DF4-8868-5C1328427721</key>
+		<dict>
+			<key>ypos</key>
+			<real>340</real>
 		</dict>
 		<key>4925C6BB-94E1-4C9E-AB91-1795AC90059E</key>
 		<dict>
@@ -602,6 +739,11 @@
 		<dict>
 			<key>ypos</key>
 			<real>670</real>
+		</dict>
+		<key>B153C310-F562-4BE1-934E-B42F03492135</key>
+		<dict>
+			<key>ypos</key>
+			<real>170</real>
 		</dict>
 		<key>BDEFA835-ACE6-4DA0-923B-10F0AEBBDE71</key>
 		<dict>
@@ -638,10 +780,10 @@
 			<key>ypos</key>
 			<real>340</real>
 		</dict>
-		<key>E918F90D-D17A-4262-8569-9F62601F905E</key>
+		<key>EFE432F7-D4C0-44E3-A0B8-7D70AA4362C7</key>
 		<dict>
 			<key>ypos</key>
-			<real>280</real>
+			<real>230</real>
 		</dict>
 		<key>F92FBA51-5625-4C68-9A4B-962F4A999F5E</key>
 		<dict>
