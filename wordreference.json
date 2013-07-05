@@ -1,5 +1,5 @@
 {
     "version": 0.6,
     "download_url": "https://github.com/mbdw/WordReference/raw/master/WordReference.alfredworkflow",
-    "description": "Moves upgrade link to github"
+    "description": "Copy on enter, open on WordReference on cmd-enter. One line per translation."
 }
