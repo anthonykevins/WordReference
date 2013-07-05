@@ -34,7 +34,7 @@ $lang1 = substr($langs, 0, 2);
 $lang2 = substr($langs, -2);
 $dir = dirname(__FILE__);
 $defaultIcon = 'icon.png';
-$lang1Icon = file_exists($dir."/$lang1.png") ? "$lang1.png" : $defaultIcon;
+$lang2Icon = file_exists($dir."/$lang2.png") ? "$lang2.png" : $defaultIcon;
 
 // where translations are stored in the JSON
 $translationPositions = array(
@@ -44,22 +44,33 @@ $translationPositions = array(
     array('original', 'Compounds'),
 );
 
-$termIndex = 0;
+$uidPrefix = "wordref-$langs-$query-";
+$uidIndex = 0;
 
 // for each position check if present and call the walker
 foreach ($translationPositions as $pos) {
     if (isset($translations->{$pos[0]}->{$pos[1]})) {
         foreach ($translations->{$pos[0]}->{$pos[1]} as $translation) {
+            $orig = $translation->OriginalTerm;
+            $note = $translation->Note;
+            unset($translation->OriginalTerm, $translation->Note);
+
             foreach ($translation as $trkey => $tr) {
-                if ($trkey === "Note") continue;
+                $arg = serialize(array($langs, $orig->term, $tr->term));
+                $title = format_title($tr->term, $tr->POS, $tr->sense);
+                $subtitle = format_title($orig->term, $orig->POS, $orig->sense, $note);
 
-                $uid = "wordref-$langs-$query-".$termIndex++;
-                $icon = $trkey === 'OriginalTerm' ? $lang1Icon : $defaultIcon;
-
-                $w->result($uid, "$langs/$query", $tr->term, "{$tr->POS} {$tr->sense}", $icon, 'yes');
+                $w->result($uidPrefix.$uidIndex++, $arg, $title, $subtitle, $lang2Icon, 'yes');
             }
         }
     }
 }
 
 echo $w->toxml();
+
+function format_title() {
+    $args = func_get_args();
+    $term = array_shift($args);
+    $details = join(' ,', array_filter($args));
+    return $term.($details ? " ($details)" : '');
+}
