@@ -1,4 +1,4 @@
 {
-    "version": 0.5,
-    "remote_json": "https://dl.dropboxusercontent.com/u/4487203/wordreference.json"
+    "version": 0.6,
+    "remote_json": "https://github.com/mbdw/WordReference/raw/master/wordreference.json"
 }
