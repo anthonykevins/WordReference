@@ -60,6 +60,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>B94393D4-9125-4CCE-AA09-4184899B63A9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D3386A49-D99B-4214-A321-70CD3F1EBDDC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>C2463F01-7664-4E9A-A683-2656317A9EC5</key>
 		<array>
 			<dict>
@@ -175,17 +186,6 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open in WordReference</string>
-			</dict>
-		</array>
-		<key>FE059F76-194E-48D6-B47D-E0D56D5BF7A7</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>D3386A49-D99B-4214-A321-70CD3F1EBDDC</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
 			</dict>
 		</array>
 		<key>FE9F0824-D6FD-4C95-84C1-339B0D98813F</key>
@@ -626,25 +626,19 @@ exec('open '.escapeshellarg($url));</string>
 			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
-				<key>escaping</key>
-				<integer>36</integer>
 				<key>keyword</key>
 				<string>setapi</string>
-				<key>script</key>
-				<string>php -f api.php -- '{query}'</string>
 				<key>subtext</key>
 				<string>If you don't have one yet, type 'getapi'</string>
-				<key>title</key>
+				<key>text</key>
 				<string>Enter your API key to setup workflow</string>
-				<key>type</key>
-				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>FE059F76-194E-48D6-B47D-E0D56D5BF7A7</string>
+			<string>B94393D4-9125-4CCE-AA09-4184899B63A9</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -745,6 +739,11 @@ exec('open '.escapeshellarg($url));</string>
 			<key>ypos</key>
 			<real>170</real>
 		</dict>
+		<key>B94393D4-9125-4CCE-AA09-4184899B63A9</key>
+		<dict>
+			<key>ypos</key>
+			<real>1110</real>
+		</dict>
 		<key>BDEFA835-ACE6-4DA0-923B-10F0AEBBDE71</key>
 		<dict>
 			<key>ypos</key>
@@ -789,11 +788,6 @@ exec('open '.escapeshellarg($url));</string>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
-		</dict>
-		<key>FE059F76-194E-48D6-B47D-E0D56D5BF7A7</key>
-		<dict>
-			<key>ypos</key>
-			<real>1110</real>
 		</dict>
 		<key>FE9F0824-D6FD-4C95-84C1-339B0D98813F</key>
 		<dict>
