@@ -1,5 +1,5 @@
 {
-    "version": 0.6,
+    "version": 0.7,
     "download_url": "https://github.com/mbdw/WordReference/raw/master/WordReference.alfredworkflow",
-    "description": "Copy on enter, open on WordReference on cmd-enter. One line per translation."
+    "description": "Fix setapi"
 }
