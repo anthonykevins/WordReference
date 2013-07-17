@@ -19,6 +19,25 @@
 		</array>
 		<key>212E2CB2-62D0-4DF4-8868-5C1328427721</key>
 		<array/>
+		<key>3694619A-EC9C-44FC-9D6B-2786007819DD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EFE432F7-D4C0-44E3-A0B8-7D70AA4362C7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>212E2CB2-62D0-4DF4-8868-5C1328427721</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in WordReference</string>
+			</dict>
+		</array>
 		<key>4925C6BB-94E1-4C9E-AB91-1795AC90059E</key>
 		<array>
 			<dict>
@@ -28,6 +47,25 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+		</array>
+		<key>631E84B9-5C2E-4ABC-A64D-6047144EA002</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EFE432F7-D4C0-44E3-A0B8-7D70AA4362C7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>212E2CB2-62D0-4DF4-8868-5C1328427721</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in WordReference</string>
 			</dict>
 		</array>
 		<key>83B63B2E-AF69-47B9-9FE6-7C89FB84BD9C</key>
@@ -474,6 +512,64 @@ exec('open '.escapeshellarg($url));</string>
 			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
+				<key>escaping</key>
+				<integer>37</integer>
+				<key>keyword</key>
+				<string>pten</string>
+				<key>runningsubtext</key>
+				<string>Fetching translation</string>
+				<key>script</key>
+				<string>php -f translate.php pten {query}</string>
+				<key>subtext</key>
+				<string>Type word to translate</string>
+				<key>title</key>
+				<string>Translate from Portuguese</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>631E84B9-5C2E-4ABC-A64D-6047144EA002</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>37</integer>
+				<key>keyword</key>
+				<string>enpt</string>
+				<key>runningsubtext</key>
+				<string>Fetching translation</string>
+				<key>script</key>
+				<string>php -f translate.php enpt {query}</string>
+				<key>subtext</key>
+				<string>Type word to translate</string>
+				<key>title</key>
+				<string>Translate from English</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>3694619A-EC9C-44FC-9D6B-2786007819DD</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
 				<key>keyword</key>
 				<string>frc</string>
 				<key>subtext</key>
@@ -692,12 +788,12 @@ exec('open '.escapeshellarg($url));</string>
 		<key>056613E0-61DB-46C1-97ED-848BA34CAC13</key>
 		<dict>
 			<key>ypos</key>
-			<real>1110</real>
+			<real>1400</real>
 		</dict>
 		<key>06F5BD5A-7096-425E-BDF8-ED41FA2B1192</key>
 		<dict>
 			<key>ypos</key>
-			<real>1000</real>
+			<real>1290</real>
 		</dict>
 		<key>11FEE081-F8E9-429C-9E0B-C9F8AD940111</key>
 		<dict>
@@ -707,14 +803,24 @@ exec('open '.escapeshellarg($url));</string>
 		<key>19CB73C2-1F6F-4128-8976-391CA1BDF176</key>
 		<dict>
 			<key>ypos</key>
-			<real>780</real>
+			<real>1070</real>
 		</dict>
 		<key>212E2CB2-62D0-4DF4-8868-5C1328427721</key>
 		<dict>
 			<key>ypos</key>
 			<real>340</real>
 		</dict>
+		<key>3694619A-EC9C-44FC-9D6B-2786007819DD</key>
+		<dict>
+			<key>ypos</key>
+			<real>780</real>
+		</dict>
 		<key>4925C6BB-94E1-4C9E-AB91-1795AC90059E</key>
+		<dict>
+			<key>ypos</key>
+			<real>960</real>
+		</dict>
+		<key>631E84B9-5C2E-4ABC-A64D-6047144EA002</key>
 		<dict>
 			<key>ypos</key>
 			<real>670</real>
@@ -727,12 +833,12 @@ exec('open '.escapeshellarg($url));</string>
 		<key>933A7A90-589E-40F7-9E89-99F80058A254</key>
 		<dict>
 			<key>ypos</key>
-			<real>890</real>
+			<real>1180</real>
 		</dict>
 		<key>94BA119A-93F6-413F-AA40-FBFD482E2BE8</key>
 		<dict>
 			<key>ypos</key>
-			<real>670</real>
+			<real>960</real>
 		</dict>
 		<key>B153C310-F562-4BE1-934E-B42F03492135</key>
 		<dict>
@@ -742,22 +848,22 @@ exec('open '.escapeshellarg($url));</string>
 		<key>B94393D4-9125-4CCE-AA09-4184899B63A9</key>
 		<dict>
 			<key>ypos</key>
-			<real>1110</real>
+			<real>1400</real>
 		</dict>
 		<key>BDEFA835-ACE6-4DA0-923B-10F0AEBBDE71</key>
 		<dict>
 			<key>ypos</key>
-			<real>890</real>
+			<real>1180</real>
 		</dict>
 		<key>C2463F01-7664-4E9A-A683-2656317A9EC5</key>
 		<dict>
 			<key>ypos</key>
-			<real>1000</real>
+			<real>1290</real>
 		</dict>
 		<key>D3386A49-D99B-4214-A321-70CD3F1EBDDC</key>
 		<dict>
 			<key>ypos</key>
-			<real>1110</real>
+			<real>1400</real>
 		</dict>
 		<key>DAA19A0D-318C-4096-B818-37C5BDD3B276</key>
 		<dict>
@@ -772,7 +878,7 @@ exec('open '.escapeshellarg($url));</string>
 		<key>E113FD79-7B70-43BA-B298-9C31808D0AD9</key>
 		<dict>
 			<key>ypos</key>
-			<real>780</real>
+			<real>1070</real>
 		</dict>
 		<key>E695ECE8-3A0A-4991-9EFB-5B839DF49A01</key>
 		<dict>
