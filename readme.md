@@ -1,9 +1,9 @@
-Note: as of 23/06/15 the workflow has stopped functioning. Wordreference.com stopped giving out APIs awhile back, and my guess is that the problem is related to that. I'll take a look in July to see if something else might be the problem though. 
+Note that Wordreference.com has stopped giving out APIs, so unless you already have access to one, you will not be able to use this workflow. 
+
+---
 
 
-
-
-For the language learners among us, here's a workflow that returns results from http://wordreference.com into Alfred.
+For language learners, here's a workflow that returns results from http://wordreference.com into Alfred.
 
 ![Translation Example](screenshots/transl.png)
  
@@ -17,7 +17,9 @@ Numerous dictionaries are included (I can add additional ones carried by the Wor
 `iten`: Italian to English
 `enes`: English to Spanish
 `esen`: Spanish to English
- 
+`enpt`: English to Portuguese
+`pten`: Portuguese to English
+
 In addition, typing frc, itc or esc, followed by a verb (in French, Italian or Spanish respectively) and then pressing enter will call up (in your browser) the conjugation table for the verb. For example:
 
 ![Conjugation Example](screenshots/conjug.png)
